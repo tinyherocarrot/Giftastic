@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gif-feeder</title>
+
+	<!-- Link to style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Link to Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Sunny Side Up with a Chance of Gifs</h1>
+		</div>
+	</header> <br>
+
+	<!-- search form for adding new buttons -->
+	<div class="row">
+		<div class="container">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<form class="form-group">
+			  		<label for="topic-input"><p>Start your morning with some gifs : </p></label>
+			  		<input type="text" class="form-control" id="topic-input">
+
+			  		<!-- Button triggers new movie to be added -->
+	      			<input class= "btn btn-submit" id="add-topic" type="submit" value="Submit">
+				</form>
+				
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+	</div>
+
+
+	<!-- div containing buttons -->
+	<div class="row">
+		<div class="container" id="buttons-here">
+			
+		</div>
+	</div>
+
+
+	<!-- div containing gifs -->
+	<div class="row">
+		<div class="container" id="gifs-here">
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
